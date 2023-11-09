@@ -3,9 +3,9 @@ var lines = input.split("\n");
 
 let r = Number(lines[0]);
 function calcularAreaCirculo(r) {
-  var a = 3.14159 * Math.pow(r, 2);
+  var resultado = 3.14159 * Math.pow(r, 2);
 
-  console.log(`A=${a.toFixed(4)}`);
+  console.log(`A=${resultado.toFixed(4)}`);
 }
 
 calcularAreaCirculo(r);
